@@ -1,7 +1,4 @@
 # Color Palette Generator — Microservice
-
----
-
 ## 1. What this microservice does
 Given a base HEX color and a harmony rule, the microservice returns a set of harmonious HEX color codes computed using color theory.
 
@@ -9,7 +6,6 @@ Given a base HEX color and a harmony rule, the microservice returns a set of har
 - Triadic: always exactly 3 colors(base hue + 120° + 240°)
 - Analogous: 3–5 colors (spread ±30° around base hue)
 - Monochromatic: 3–5 colors (same hue, varying lightness)
----
 ## 2. How to REQUEST data from the microservice
 **The microservice must be running before any request is made.**
 ```bash
@@ -47,8 +43,6 @@ response = requests.get(
     params={"base_color": "#6A0DAD", "harmony_rule": "monochromatic"}
 )
 ```
----
-
 ## 3. How to RECEIVE data from the microservice
 
 The microservice always responds with **JSON**.
@@ -88,4 +82,3 @@ else:
     error = response.json()["error"]
     print(f"Error: {error}")
 ```
----

@@ -31,6 +31,7 @@ def is_valid_hex(value):
         int(v,16)
     except ValueError:
         return False
+    return True
 
 # Harmony Functions
 def generate_triadic(hex_color):
@@ -115,7 +116,7 @@ def palette():
     else:
         colors = generate_monochromatic(base_color,count)
 
-    return jsonify({"palette":colors})
+    return jsonify({"colors":colors})
 
 # entry point
 if __name__ == '__main__':

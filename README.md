@@ -17,7 +17,7 @@ Send an **HTTP GET** request to:
 ```
 http://localhost:5000/palette
 ```
-**with** query-string parameters**:**
+with **query-string parameters**:
 - base_color (string, required): base color in HEX format
 - harmony_rule (string, required): one of triadic, analogous, monochromatic
 - count (integer, optional): number of colors to return, between 3 and 5, defaults to 3; only applies to analogous and monochromatic

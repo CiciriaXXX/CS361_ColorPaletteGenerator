@@ -82,3 +82,5 @@ else:
     error = response.json()["error"]
     print(f"Error: {error}")
 ```
+## 4. UML Sequence Diagram
+![alt text](./uml.png)

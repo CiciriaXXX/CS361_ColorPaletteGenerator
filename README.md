@@ -2,7 +2,7 @@
 
 ## 1. What This Microservice Does
 
-Given a base [HEX color](https://developer.mozilla.org/en-US/docs/Web/CSS/hex-color) and a [color harmony](https://www.adobe.com/creativecloud/design/hub/guides/understanding-color-harmony.html) rule, this microservice returns a set of harmonious HEX color codes computed using color theory.
+Given a base [HEX color](https://developer.mozilla.org/en-US/docs/Web/CSS/hex-color) and a [color harmony](https://www.domestika.org/en/blog/8679-what-is-color-harmony-and-what-types-are-there) rule, this microservice returns a set of harmonious HEX color codes computed using color theory.
 
 **Supported harmony rules:**
 ### Triadic
@@ -72,7 +72,7 @@ response = requests.get(
 ```
 ## 3. How to RECEIVE Data from the Microservice
 
-The microservice always responds with [JSON](https://www.json.org/json-en.html).
+The microservice always responds with [JSON](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/JSON).
 
 ### Success Response — HTTP 200
 

@@ -15,7 +15,7 @@ Colors within a **±30° arc** of the base hue — naturally cohesive, low-contr
 
 ### Monochromatic
 Same hue, varying **lightness** — a unified, subtle palette. Returns 3–5 colors.
-![Monochromatic swatch strip](./monochromatic.webp)
+![Monochromatic swatch strip](./monochromatic.png)
 
 ## 2. How to REQUEST Data from the Microservice
 **The microservice must be running before any request is made.**
@@ -128,6 +128,6 @@ Output palette in this example:
 ![Output palette](./output_color.png)
 ## 4. UML Sequence Diagram
 
-The diagram below shows the full request-response lifecycle: the client constructs a GET request with query parameters, the microservice validates the input and computes the palette, then returns either a JSON color array or an error message.
+The [UML Sequence diagram](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-sequence-diagram/) below shows the full request-response lifecycle: the client constructs a GET request with query parameters, the microservice validates the input and computes the palette, then returns either a JSON color array or an error message.
 
 ![UML sequence diagram](./uml.png)
